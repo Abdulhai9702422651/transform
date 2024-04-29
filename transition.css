@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height:50px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.a{
+    background: yellow;
+    
+    transition: all 1s linear 0s;
+}
+.a:hover{
+    width: 600px;
+    /* background: red; */
+    border-radius: 8px;
+}
+.b{
+    background: green;
+    
+    transition: all 1s linear 0s;
+}
+.b:hover{
+    width: 600px;
+    background: blue;
+    border-radius: 8px;
+}
+.c{
+    background: red;
+    
+    transition: all 1s linear 0s;
+}
+.c:hover{
+    width: 600px;
+    background: yellow;
+    border-radius: 8px;
+}
+.d{
+    background: blue;
+    
+    transition: all 1s linear 0s;
+}
+.d:hover{
+    width: 600px;
+    /* background: red; */
+    border-radius: 8px;
+}
+
+.con{
+   background: darkgrey;
+   /* border: 1px solid red; */
+   padding-bottom: 50px;
+   
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    margin: auto; 
+    background: rgba(255, 0, 0, 0.418);
+    padding: 20px;
+}
+.bo{
+    width: 400px;
+    height: 450px;
+    border-radius: 8px;
+    transition: 0.9s;
+    transform: skewy( 10deg );
+}
+.bo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.ab{
+    
+    background: lightsalmon;
+}
+.ab:hover{
+    transform: rotate(20deg);
+    
+}
+.bc{
+    
+    background: lightsalmon;
+}
+.bc:hover{
+    transform: rotate(15deg);
+}
+.cd{
+    
+    background: lightsalmon;
+}
+.cd:hover{
+    transform: rotate(10deg);
+}
